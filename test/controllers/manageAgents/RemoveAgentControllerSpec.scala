@@ -40,7 +40,7 @@ import scala.concurrent.Future
 class RemoveAgentControllerSpec extends SpecBase with MockitoSugar with AgentDetailsTestUtil {
 
   def onwardRoute: Call = controllers.routes.HomeController.onPageLoad()
-  
+
   lazy val removeAgentRequestRoute: String = controllers.manageAgents.routes.RemoveAgentController.onPageLoad(testStorn).url
 
   val formProvider = new RemoveAgentFormProvider()
