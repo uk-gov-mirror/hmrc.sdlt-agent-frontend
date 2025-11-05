@@ -109,3 +109,6 @@ manageAgents.addressLookup.lookup.heading           = Find {0}’s address
 manageAgents.addressLookup.confirm.heading          = Review and confirm {0}’s address
 manageAgents.addressLookup.confirm.changeLinkText   = Edit address
 manageAgents.addressLookup.edit.heading             = Enter {0}’s address
+
+homepage.heading = Manage your Stamp Taxes
+homepage.storn = STORN: {0}
